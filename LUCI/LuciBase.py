@@ -10,7 +10,7 @@ import pyregion
 from scipy import interpolate
 import time
 from joblib import Parallel, delayed
-from LUCI.LuciFit import Fit
+from LuciFit import Fit
 import matplotlib.pyplot as plt
 from astropy.nddata import Cutout2D
 from astroquery.astrometry_net import AstrometryNet
